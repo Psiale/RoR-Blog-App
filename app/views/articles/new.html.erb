@@ -1,21 +1,3 @@
 <h1>create a new article</h1>
 
-<%= form_for(@article){ |f| %>
-  <ul>
-  <% @article.errors.full_messages.each{ |e|  %>
-  <li><%= e %></li>
-  <% } %>
-  </ul>
-
-  <p>
-    <%= f.label :title %>
-    <%= f.text_field :title %>
-  </p>
-  <p>
-    <%= f.label :body %>
-    <%= f.text_area :body %>
-  </p>
-  <p>
-    <%= f.submit %>
-  </p>
-<% } %>
+<%= render partial: 'form'%>
