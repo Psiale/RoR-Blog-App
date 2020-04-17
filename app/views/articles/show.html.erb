@@ -1,4 +1,10 @@
 <h1><%= @article.title %></h1>
+<p>
+Tags: 
+<% @article.tags.each { |tag|  %>
+<%= link_to tag.name, tag_path(tag) %>
+<% }  %>
+</p>
 <p><%= @article.body %></p>
 
 <h3>Comments (<%= @article.comments.size %>) </h3>
