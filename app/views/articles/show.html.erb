@@ -5,6 +5,8 @@ Tags:
 <%= link_to tag.name, tag_path(tag) %>
 <% }  %>
 </p>
+
+<p> <%= image_tag @article.image.url %></p>
 <p><%= @article.body %></p>
 
 <h3>Comments (<%= @article.comments.size %>) </h3>
