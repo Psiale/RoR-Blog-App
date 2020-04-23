@@ -7,6 +7,10 @@
 
 Follow the [installation instructions](https://www.theodinproject.com/courses/web-development-101/lessons/installing-ruby) from The Odin Project.
 
+
+## Live Version 
+  [Blogger app](https://fathomless-scrubland-44931.herokuapp.com)
+
 ## Author
 
 **Oscar Mier**
